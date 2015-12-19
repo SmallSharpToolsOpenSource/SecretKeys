@@ -9,7 +9,7 @@ if [ -f "${SECRET_KEYS}" ] && [ -f "${KEYS_PLIST}" ]; then
     echo "### Found Keys.plist ###"
 
     # Greeting
-    /usr/libexec/PlistBuddy -c "Set :Greeting '${GREETING}'" "${KEYS_PLIST}"
+    /usr/libexec/PlistBuddy -c "Set :Greeting '${Greeting}'" "${KEYS_PLIST}"
     /usr/libexec/PlistBuddy -c "Print :Greeting" "${KEYS_PLIST}"
 
     # SecretCode
