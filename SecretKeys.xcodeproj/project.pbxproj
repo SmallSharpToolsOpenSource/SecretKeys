@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260746351C250C9D0022E0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260746341C250C9D0022E0ED /* AppDelegate.swift */; };
+		260746371C250C9D0022E0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260746361C250C9D0022E0ED /* ViewController.swift */; };
+		2607463A1C250C9D0022E0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260746381C250C9D0022E0ED /* Main.storyboard */; };
+		2607463C1C250C9D0022E0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2607463B1C250C9D0022E0ED /* Assets.xcassets */; };
+		2607463F1C250C9D0022E0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2607463D1C250C9D0022E0ED /* LaunchScreen.storyboard */; };
+		2607464A1C250C9D0022E0ED /* SecretKeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260746491C250C9D0022E0ED /* SecretKeysTests.swift */; };
+		260746551C250C9D0022E0ED /* SecretKeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260746541C250C9D0022E0ED /* SecretKeysUITests.swift */; };
+		260746631C250CC30022E0ED /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 260746621C250CC30022E0ED /* Keys.plist */; };
+		260746651C250CF10022E0ED /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260746641C250CF10022E0ED /* Keys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		260746461C250C9D0022E0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260746291C250C9D0022E0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260746301C250C9D0022E0ED;
+			remoteInfo = SecretKeys;
+		};
+		260746511C250C9D0022E0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260746291C250C9D0022E0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260746301C250C9D0022E0ED;
+			remoteInfo = SecretKeys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260746311C250C9D0022E0ED /* SecretKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		260746341C250C9D0022E0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		260746361C250C9D0022E0ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		260746391C250C9D0022E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2607463B1C250C9D0022E0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2607463E1C250C9D0022E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		260746401C250C9D0022E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260746451C250C9D0022E0ED /* SecretKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		260746491C250C9D0022E0ED /* SecretKeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeysTests.swift; sourceTree = "<group>"; };
+		2607464B1C250C9D0022E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260746501C250C9D0022E0ED /* SecretKeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretKeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		260746541C250C9D0022E0ED /* SecretKeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeysUITests.swift; sourceTree = "<group>"; };
+		260746561C250C9D0022E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260746621C250CC30022E0ED /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		260746641C250CF10022E0ED /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2607462E1C250C9D0022E0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260746421C250C9D0022E0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2607464D1C250C9D0022E0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260746281C250C9D0022E0ED = {
+			isa = PBXGroup;
+			children = (
+				260746331C250C9D0022E0ED /* SecretKeys */,
+				260746481C250C9D0022E0ED /* SecretKeysTests */,
+				260746531C250C9D0022E0ED /* SecretKeysUITests */,
+				260746321C250C9D0022E0ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260746321C250C9D0022E0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260746311C250C9D0022E0ED /* SecretKeys.app */,
+				260746451C250C9D0022E0ED /* SecretKeysTests.xctest */,
+				260746501C250C9D0022E0ED /* SecretKeysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260746331C250C9D0022E0ED /* SecretKeys */ = {
+			isa = PBXGroup;
+			children = (
+				260746341C250C9D0022E0ED /* AppDelegate.swift */,
+				260746361C250C9D0022E0ED /* ViewController.swift */,
+				260746381C250C9D0022E0ED /* Main.storyboard */,
+				2607463B1C250C9D0022E0ED /* Assets.xcassets */,
+				2607463D1C250C9D0022E0ED /* LaunchScreen.storyboard */,
+				260746401C250C9D0022E0ED /* Info.plist */,
+				260746621C250CC30022E0ED /* Keys.plist */,
+				260746641C250CF10022E0ED /* Keys.swift */,
+			);
+			path = SecretKeys;
+			sourceTree = "<group>";
+		};
+		260746481C250C9D0022E0ED /* SecretKeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				260746491C250C9D0022E0ED /* SecretKeysTests.swift */,
+				2607464B1C250C9D0022E0ED /* Info.plist */,
+			);
+			path = SecretKeysTests;
+			sourceTree = "<group>";
+		};
+		260746531C250C9D0022E0ED /* SecretKeysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				260746541C250C9D0022E0ED /* SecretKeysUITests.swift */,
+				260746561C250C9D0022E0ED /* Info.plist */,
+			);
+			path = SecretKeysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260746301C250C9D0022E0ED /* SecretKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260746591C250C9D0022E0ED /* Build configuration list for PBXNativeTarget "SecretKeys" */;
+			buildPhases = (
+				2607462D1C250C9D0022E0ED /* Sources */,
+				2607462E1C250C9D0022E0ED /* Frameworks */,
+				2607462F1C250C9D0022E0ED /* Resources */,
+				260746661C250E450022E0ED /* Update Keys */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretKeys;
+			productName = SecretKeys;
+			productReference = 260746311C250C9D0022E0ED /* SecretKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		260746441C250C9D0022E0ED /* SecretKeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2607465C1C250C9D0022E0ED /* Build configuration list for PBXNativeTarget "SecretKeysTests" */;
+			buildPhases = (
+				260746411C250C9D0022E0ED /* Sources */,
+				260746421C250C9D0022E0ED /* Frameworks */,
+				260746431C250C9D0022E0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260746471C250C9D0022E0ED /* PBXTargetDependency */,
+			);
+			name = SecretKeysTests;
+			productName = SecretKeysTests;
+			productReference = 260746451C250C9D0022E0ED /* SecretKeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2607464F1C250C9D0022E0ED /* SecretKeysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2607465F1C250C9D0022E0ED /* Build configuration list for PBXNativeTarget "SecretKeysUITests" */;
+			buildPhases = (
+				2607464C1C250C9D0022E0ED /* Sources */,
+				2607464D1C250C9D0022E0ED /* Frameworks */,
+				2607464E1C250C9D0022E0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260746521C250C9D0022E0ED /* PBXTargetDependency */,
+			);
+			name = SecretKeysUITests;
+			productName = SecretKeysUITests;
+			productReference = 260746501C250C9D0022E0ED /* SecretKeysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260746291C250C9D0022E0ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SecretKeys;
+				TargetAttributes = {
+					260746301C250C9D0022E0ED = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					260746441C250C9D0022E0ED = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 260746301C250C9D0022E0ED;
+					};
+					2607464F1C250C9D0022E0ED = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 260746301C250C9D0022E0ED;
+					};
+				};
+			};
+			buildConfigurationList = 2607462C1C250C9D0022E0ED /* Build configuration list for PBXProject "SecretKeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 260746281C250C9D0022E0ED;
+			productRefGroup = 260746321C250C9D0022E0ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260746301C250C9D0022E0ED /* SecretKeys */,
+				260746441C250C9D0022E0ED /* SecretKeysTests */,
+				2607464F1C250C9D0022E0ED /* SecretKeysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2607462F1C250C9D0022E0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260746631C250CC30022E0ED /* Keys.plist in Resources */,
+				2607463F1C250C9D0022E0ED /* LaunchScreen.storyboard in Resources */,
+				2607463C1C250C9D0022E0ED /* Assets.xcassets in Resources */,
+				2607463A1C250C9D0022E0ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260746431C250C9D0022E0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2607464E1C250C9D0022E0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260746661C250E450022E0ED /* Update Keys */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Keys";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UPDATE_SCRIPT=${PROJECT_DIR}/update_keys.sh\necho \"Script: ${UPDATE_SCRIPT}\"\n\nif [ -f \"${UPDATE_SCRIPT}\" ]; then\n    echo \"### Script found! ###\"\n    sh ${UPDATE_SCRIPT}\nelse\n    echo \"### Script not found! ###\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2607462D1C250C9D0022E0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260746371C250C9D0022E0ED /* ViewController.swift in Sources */,
+				260746651C250CF10022E0ED /* Keys.swift in Sources */,
+				260746351C250C9D0022E0ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260746411C250C9D0022E0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2607464A1C250C9D0022E0ED /* SecretKeysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2607464C1C250C9D0022E0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260746551C250C9D0022E0ED /* SecretKeysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		260746471C250C9D0022E0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260746301C250C9D0022E0ED /* SecretKeys */;
+			targetProxy = 260746461C250C9D0022E0ED /* PBXContainerItemProxy */;
+		};
+		260746521C250C9D0022E0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260746301C250C9D0022E0ED /* SecretKeys */;
+			targetProxy = 260746511C250C9D0022E0ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		260746381C250C9D0022E0ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260746391C250C9D0022E0ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2607463D1C250C9D0022E0ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2607463E1C250C9D0022E0ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		260746571C250C9D0022E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		260746581C250C9D0022E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2607465A1C250C9D0022E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecretKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.SecretKeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2607465B1C250C9D0022E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecretKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.SecretKeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2607465D1C250C9D0022E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SecretKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.SecretKeysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretKeys.app/SecretKeys";
+			};
+			name = Debug;
+		};
+		2607465E1C250C9D0022E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SecretKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.SecretKeysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretKeys.app/SecretKeys";
+			};
+			name = Release;
+		};
+		260746601C250C9D0022E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SecretKeysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.SecretKeysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecretKeys;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		260746611C250C9D0022E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SecretKeysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.SecretKeysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecretKeys;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2607462C1C250C9D0022E0ED /* Build configuration list for PBXProject "SecretKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260746571C250C9D0022E0ED /* Debug */,
+				260746581C250C9D0022E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260746591C250C9D0022E0ED /* Build configuration list for PBXNativeTarget "SecretKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2607465A1C250C9D0022E0ED /* Debug */,
+				2607465B1C250C9D0022E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2607465C1C250C9D0022E0ED /* Build configuration list for PBXNativeTarget "SecretKeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2607465D1C250C9D0022E0ED /* Debug */,
+				2607465E1C250C9D0022E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2607465F1C250C9D0022E0ED /* Build configuration list for PBXNativeTarget "SecretKeysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260746601C250C9D0022E0ED /* Debug */,
+				260746611C250C9D0022E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260746291C250C9D0022E0ED /* Project object */;
+}
